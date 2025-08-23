@@ -1,0 +1,161 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+}
+header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	color: #000;
+	justify-content: space-between;
+	background-color: #fff;
+	margin-bottom: 50px;
+	padding: 10px;
+	z-index: 100000;
+	border-bottom-color: burlywood;
+}
+.navbar{
+	display: flex;
+	align-items: center;
+}
+nav{
+	flex: 1;
+	text-align: right;
+}
+nav ul{
+	display: inline-block;
+	list-style-type: none;
+}
+nav ul li{
+	display: inline-block;
+	padding: 20px 0;
+	margin-right: 20px;
+}
+nav ul li :hover{
+	
+}
+.small-container{
+	text-align: left;
+	margin-top: 120px;
+	padding: 40px 35px;
+}
+.small-container h1{
+	font-size: 40px;
+	font-family: 'Times New Roman';
+	margin-bottom: 10px;
+}
+.container{
+	position: center;
+	background-color: lightgrey;
+	max-width: 95%;
+	padding: 100px;
+	margin: 20px auto;
+	border-radius: 15px;
+}
+.sub-container{
+	text-align: center;
+	background-color: lightsteelblue;
+	max-width: 900px;
+	margin: auto;
+	padding: 60px 40px;
+	height: auto;
+	border-radius: 15px;
+}
+.row_1{
+	text-align: center;
+	margin-left: 25%;
+	max-width: 400px;
+}
+.row_1 h1{
+	font-size: 28px;
+	font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+	text-align: center;
+}
+.row_1 p{
+	font-size: 1.1em;
+	text-align: center;
+    margin-bottom: 40px;
+}
+.row_2{
+	text-align: center;
+	width: 800px;
+	margin-bottom: 50px;
+	justify-content: center;
+	display: flex;
+	gap: 20px;
+	direction: ltr;
+}
+.col-1{
+	color: #000;
+	background-color: #fff;
+	border-radius: 15px;
+	width: 250px;
+	height: auto;
+	padding: 40px 20px;
+	gap: 20px;
+}
+.col-2{
+	color: #000;
+	background-color: #fff;
+	border-radius: 15px;
+	width: 250px;
+	height: auto;
+	padding: 40px 20px;
+	gap: 20px;
+}
+.col-3{
+	color: #000;
+	background-color: #fff;
+	border-radius: 15px;
+	width: 250px;
+	height: auto;
+	padding: 40px 20px;
+	gap: 20px;
+}
+.col-1 p{
+	font-size: small;
+	margin: 10px;
+}
+.col-1 h2{
+	margin-bottom: 20px;
+}
+.col-2 p{
+	font-size: small;
+	margin: 10px;
+}
+.col-2 h2{
+	margin-bottom: 20px;
+}
+.col-3 p{
+	font-size: small;
+	margin: 10px;
+}
+.col-3 h2{
+	margin-bottom: 20px;
+}
+span{
+	font-size: 18px;
+	font-weight: normal;
+}
+.btn{
+	font-size: 14px;
+	color: #000;
+	background-color: lightgray;
+	border-radius: 25px;
+	padding: 15px;
+}
+.sub-btn{
+	font-size: 14px;
+	color: #fff;
+	background-color: darkblue;
+	border-radius: 25px;
+	padding: 15px;
+	margin-left: 39%;
+	max-width: fit-content;
+}
